@@ -1,3 +1,7 @@
+// And implementation of Conway's Game of Life in D, using Dgame
+// by Chris Collazo
+// Licensed under the GNU GPLv3 - General Public License
+
 import std.stdio,
 	core.thread,
 	std.random,

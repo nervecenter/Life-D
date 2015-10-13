@@ -3,7 +3,7 @@
     "description":  "An implementation of Conway's Game of Life in D using Dgame.",
     "homepage":     "https://bitbucket.org/nervecenter",
     "authors":  	["Chris Collazo"],
-    "license":      "Zlib/PNG License",
+    "license":      "GNU GPLv3 - General Public License",
     "dependencies": {
         "derelict-sdl2": "~>1.9.5",
         "derelict-gl3": "~>1.0.12"
