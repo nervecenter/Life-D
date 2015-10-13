@@ -1,0 +1,30 @@
+{
+    "name":         "Game of Life in D",
+    "description":  "An implementation of Conway's Game of Life in D using Dgame.",
+    "homepage":     "https://bitbucket.org/nervecenter",
+    "authors":  	["Chris Collazo"],
+    "license":      "Zlib/PNG License",
+    "dependencies": {
+        "derelict-sdl2": "~>1.9.5",
+        "derelict-gl3": "~>1.0.12"
+    },
+    "configurations": [
+        {
+            "name": "life",
+            "targetName": "life",
+            "targetType": "executable",
+            "sourceFiles": ["life.d"],
+            "dflags": ["-Dd../docs", "-debug"],
+            "sourcePaths": ["../"],
+            "importPaths": ["../"]
+        }
+    ],
+    "buildTypes": {
+        "dg_debug": {
+            "buildOptions": ["debugMode", "debugInfoC", "alwaysStackFrame", "warnings", "unittests"]
+        },
+        "dg_release": {
+            "buildOptions": ["releaseMode", "inline", "optimize", "noBoundsCheck", "warnings"]
+        }
+    }
+}
