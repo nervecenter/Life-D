@@ -2,7 +2,9 @@
 
 An implementation of Conway's Game of Life in D, using Dgame.
 
-The original non-Dgame source is in the root directory. To use the Dgame version, navigate to Dgame/life and run dub build. Then run life.exe from command line or by double-clicking.
+The original non-Dgame source is /lifeorig.d.
+
+Dgame version is /Dgame/life/life.d. In that folder, run dub build. Then run life.exe from command line or by double-clicking.
 
 ### Issues ###
 
